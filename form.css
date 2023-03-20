@@ -1,0 +1,40 @@
+.main_heading{
+    text-align: center;
+    text-decoration: underline;
+}
+input[type="submit"]{
+    background-color: rgb(187, 211, 221);
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 10px;
+}
+/**cursor is= to pointer so that when ever we will hover the mouse over it ,it will covert mouse pointer to cursor**/
+input[type="submit"]:hover{color: rgb(9, 238, 85);}
+body{ padding: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15;
+margin: 12px;
+}
+col{
+    width: 80%;
+    background-color: rgb(36, 235, 36);
+    border-radius: 8px;/**border radius is used to curve the radius**/
+        border-width: 10px;
+}
+.continer{
+    background-color:whitesmoke;
+    padding-left: 25;
+    padding-right: 20;
+    padding: 20,25,18,22;
+    border: rgb(17, 16, 16);
+    border-radius: 5em;
+    font-weight: 30px;
+    margin-left: 15px;
+}
+
+
+.maddy{padding: 10px;
+margin: 10px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Payment form</title>
+</head>
+<body>
+    <div class="continer">
+    <form action=""></form>
+    <h1 class="main_heading">Payment information</h1>
+    <h2 class="maddy">User Details:</h2>
+    <p class="maddy">
+        Name: <input type ="text" name="name" placeholder="Piyush sharma">
+
+    </p>
+    <p class="maddy">
+        <fieldset>
+            <legend>Gender</legend>
+        Male <input type="radio" name="gender" id="male">
+        Female <input type="radio" name="gender" id="female">
+    </fieldset>
+    </p>
+<p class="maddy">
+    Address : 
+         <textarea class="col" name="address" id="address" cols="70" rows="8"></textarea>
+
+</p>
+<p class="maddy">
+    Email : <input type="email" name="email" id="email" required placeholder="piyushsharma8555@gmail.com"required>
+
+</p class="maddy">
+<p class="maddy" >
+    Pincode : <input type="number" name="pincode" id="pincode" placeholder="12345">
+</p>
+<hr>
+ 
+<h2 class="maddy">Payment Information:</h2>
+<p class="maddy">Card type:- 
+    <select name="card_type" id ="card_type" >
+     <option value="">razor pay</option>
+     <option value="visa">visa</option>
+     <option value="mastercard">mastercard</option>
+
+    </select>
+</p>
+
+<p class="maddy">
+card number:<input type="number" name="card_number" id="card number"placeholder="1002 2246 4567 8739">
+</p>
+<p class="maddy">
+Exp. date<input type="date" name="exp_date" id="exp_date" placeholder="02/22">
+
+</p>
+ 
+<p class="maddy">
+Cvv:- <input type="password" name="cvv" id="cvv" placeholder="123"><br>
+<hr>
+<input type="submit" value="Pay now">
+</p>
+</div>
+
+</body>
+</html>
